@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Images, Video, Favicons, &amp; Tables</title>
+        <meta name="author" content="Jinghan">
+        <meta name="description" content="Practice with images, video, svgs, favicons, and tables for G.I.T. 215">
+
+        <!-- A FAVICON -->
+        <link rel="icon" type="image/png" href="favicon.png">
+
+        <!-- GOOGLE FONTS LINKS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&display=swap" rel="stylesheet">
+
+        <!-- CSS STYLESHEET -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <section id="images">
+                <h2>Adding Images to Your HTML</h2>
+                <section>
+                    <h3>Adding Decorative Images to HTML</h3>
+                    <img src="square-red-blue.jpg" alt="" width="400" height="400">
+                    <p class="credit">Photo by USGS on Unsplash</p>
+                </section>
+                <section>
+                    <h3>Adding Images as Content in HTML</h3>
+                    <img src="memphis-recording-service.jpg" alt="A neon sign hanging on a dark wall that says Memphis Recording Service" width="400" height="400">
+                    <p class="credit">Photo by Uwe Conrad on Unsplash</p>
+                </section>
+            </section>
+            <section id="table">
+                <h2>Using Tables in HTML</h2>
+                <table>
+                    <caption>Hours of Operation</caption>
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>Noon - 8:00PM</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>10:00AM - 7:00PM</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="bold">Wednesday - Closed</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>10:00AM - 7:00PM</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>Noon - Midnight</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td rowspan="2">Closed - By Appointment Only</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <h2>Follow Us on Social Media</h2>
+            <a href="#" aria-label="find us on vinyl">
+                <img src="vinyl.svg" alt="Vinyl record icon">
+            </a>
+        </footer>
+    </body>
+</html>
